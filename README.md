@@ -10,6 +10,7 @@ When the robot is powered on, the first thing the robot does is try to get comma
 - Forward: “F”,
 - Backward: “B”,
 - Line following mode: “C”, etc.
+
 While following the task related to command, it interacts with an ultrasonic sensor to avoid obstacles.
 ## Bluetooth Controlled Mode
 In this mode, we need to provide commands from the Robot app. To move the robot forward we need to click the forward arrow button and by pressing the respective arrow buttons, the robot moves. This robot is more sophisticated than others as it can sense distance from the front with the help of an ultrasonic sensor. When we give a command to the robot to turn left, the robot first sees whether something is present on the left or not i.e. to avoid obstacles, and if nothing is present only the robot turns left otherwise it will remain in its position and right also there is the same process. For turning Ultrasonic Sensor, it uses a Servo Motor.
