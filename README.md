@@ -5,6 +5,7 @@ All-In-One Robot is a multipurpose robot that can be controlled in four differen
 - Voice Controlled Mode
 - Line Following Mode
 - Obstacle Avoiding Mode
+
 When the robot is powered on, the first thing the robot does is try to get commands through the HC-05 Bluetooth module. Bluetooth-controlled mode is the default mode. The command is given in character form (char) by our robot app except in voice-controlled mode. When our robot gets a command it sees whether something related to that command is written in code or not. If that is written, it will follow the respective task. The examples of command are:
 - Forward: “F”,
 - Backward: “B”,
